@@ -1,0 +1,64 @@
+:root {
+    --navy-blue: #003366;
+    --text-dark: #333;
+    --white: #ffffff;
+}
+
+
+.navbar-header {
+    height: 85px; 
+    background: var(--white);
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.container-custom {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-icon { color: var(--navy-blue); font-size: 32px; }
+.logo-text { font-size: 22px; font-weight: 700; color: var(--navy-blue); }
+
+.nav-links a {
+    text-decoration: none;
+    color: #666;
+    margin: 0 15px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover { color: var(--navy-blue); }
+
+
+.btn-login { text-decoration: none; color: var(--text-dark); margin-right: 20px; }
+.btn-signup {
+    background: var(--navy-blue);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+.hero-section {
+    padding: 100px 20px;
+    text-align: center;
+    background: #fdfdfd;
+}
+
+.hero-section h1 { font-size: 3.5rem; font-weight: 800; color: #1a1a1a; }
